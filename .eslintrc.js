@@ -1,4 +1,7 @@
 module.exports = {
+  globals: {
+    'sails': true
+  },
   extends: ['standard'],
   plugins: ['import'],
   settings: {
